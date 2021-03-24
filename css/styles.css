@@ -1,0 +1,534 @@
+/* GENERALES */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+.container{
+    width: 100%;
+    max-width: 2000px;
+    margin: auto;
+}
+
+
+/* FIN GENERALES */
+
+/* INICIO HEADER */
+#header{
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to right top, #071e3f, #022847,
+     #00324e, #033c54, #0f4659);
+}
+
+#header .container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+#logo img{
+    display: block;
+    float: left;
+    width: 200px;
+    cursor: pointer;
+    padding-top: 25px;
+    margin-left: 20px;
+}
+
+#menu{
+    float: right;
+}
+
+#menu li{
+    display: inline-block;
+    font-size: 22px;
+    margin: 0px 20px 0px 20px;
+    letter-spacing: 1px;
+    line-height: 107px;
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+    transition: all 300ms;
+}
+
+#menu a:hover{
+    color: gold;
+}
+/* FIN HEADER */
+
+
+body{
+    background-color: #E1EDF2;
+}
+
+/* INICIO INTRO*/
+
+.intro{
+    width: 90%;
+    margin: auto;
+}
+
+.intro h1{
+    font-size: 28px;
+    color: goldenrod;
+    text-shadow: 1px 1px 2px black;
+}
+
+.intro img{
+    display: block;
+    width: 65%;
+    float: left;
+    padding-top: 10px;
+    transition: all 300ms;
+}
+
+.intro img:hover{
+    transform: translateY(-10px);
+
+}
+
+.intro .descripcion{
+    float: right;
+    width: 35%;
+    text-align: center;
+    margin-top: 16%;
+    transition: all 300ms;
+}
+
+.intro p{
+    font-size: 20px;
+    line-height: 40px;
+}
+
+/* FIN INTRO */
+
+/* INICIO VIDEOS1 */
+
+h3{
+    font-size: 32px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: darkgoldenrod;
+    text-shadow: 1px 2px 2px rgb(114, 114, 113);
+}
+
+.videos{
+    display: block;
+    width: 95%;
+    margin: auto;
+}
+
+.videos iframe{
+    display: block;
+    width: 30%;
+    height: 300px;
+    float: left;
+    margin: 22px;
+}
+
+/* FIN VIDEOS1*/
+
+/* INICIO CONOCENOS */
+
+.conocenos{
+    width: 90%;
+    margin: auto;
+}
+
+.conocenos h2{
+    font-size: 28px;
+    color: goldenrod;
+    text-shadow: 1px 1px 2px black;
+}
+.conocenos img{
+    display: block;
+    width: 45%;
+    float: right;
+    padding-top: 10px;
+    transition: all 300ms;
+}
+.conocenos img:hover{
+    transform: translateY(-10px);
+
+}
+
+.conocenos .descripcionMatri{
+    float: left;
+    width: 55%;
+    text-align: center;
+    margin-top: 16%;
+    transition: all 300ms;
+}
+
+.conocenos p{
+    font-size: 20px;
+    line-height: 40px;
+}
+/* INICIO 3RA SECCION CONOCENOS */
+
+/* INICIO QUE ES JEYU */
+.jeyu{
+    width: 90%;
+    margin: auto;
+}
+
+.jeyu h2{
+    font-size: 28px;
+    color: goldenrod;
+    text-shadow: 1px 1px 2px black;
+}
+
+.jeyu img{
+    display: block;
+    width: 50%;
+    float: left;
+    padding-top: 10px;
+    transition: all 300ms;
+}
+
+.jeyu img:hover{
+    transform: translateY(-10px);
+}
+
+.jeyu .descripcion{
+    float: right;
+    width: 45%;
+    text-align: center;
+    margin-top: 16%;
+    transition: all 300ms;
+}
+
+.jeyu p{
+    font-size: 20px;
+    line-height: 40px;
+}
+
+/* FIN QUE ES JEYU */
+
+/* INICIO FOOTER */
+
+.footer{
+    width: 100%;
+    overflow: hidden;
+    color:white;
+    background-image: linear-gradient(to right top, #051937, #002638, #0f3032, #2b3832, #3e3f3c);
+}
+
+.footer .contenidoFooter{
+    text-align: center;
+    margin: 20px;
+}
+
+.footer h4{
+    font-size: 30px;
+}
+
+.footer p{
+    color: gray;
+}
+
+.footer .logos img{
+    width: 10%;
+}
+/* FIN FOOTER */
+
+/* INICIO RESPONSIVE */
+
+
+@media (max-width:1398px){
+    .conocenos .descripcionMatri{
+        margin-top: 10%;
+    }
+
+    .videos iframe{
+        width: 29%;
+    }
+}
+
+@media (max-width:1101px){
+    .conocenos .descripcionMatri{
+        margin-top: 5%;
+    }
+
+    .jeyu .descripcion{
+        margin-top: 11%;
+    }
+}
+
+
+@media (max-width:1068px){
+    .videos iframe {
+        width: 31%;
+        margin: 9px;
+    }
+
+}
+
+@media (max-width:1022px){
+    .intro .descripcion{
+        margin-top: 7%;
+    }
+
+    .conocenos p{
+        font-size: 18px;
+    }
+
+    .jeyu .descripcion{
+        margin-top: 6%;
+    }
+}
+
+@media (max-width:990px){
+    .conocenos .descripcionMatri {
+        margin-top: 4%;
+    }
+    .conocenos p {
+        font-size: 17px;
+    }
+}
+
+@media (max-width:935px){
+
+    .intro h1 {
+        font-size: 25px;
+    }
+    .intro p {
+        font-size: 17px;
+        line-height: 36px;
+    }
+    .intro .descripcion {
+        margin-top: 11%;
+    }
+    .conocenos p {
+        font-size: 15px;
+        line-height: 36px;
+    }
+    .conocenos h2 {
+        font-size: 25px;
+    }
+    .jeyu h2 {
+        font-size: 25px;
+    }
+    .jeyu p {
+        font-size: 17px;
+        line-height: 36px;
+    }
+
+    .jeyu .descripcion {
+        margin-top: 12%;
+    }
+
+    h3{
+        font-size: 23px;
+    }
+ 
+
+}
+
+@media (max-width:852px){
+    .intro .descripcion {
+        margin-top: 5%;
+    }
+
+    .jeyu .descripcion {
+        margin-top: 5%;
+    }
+}
+
+@media (max-width:820px){
+    .videos iframe {
+        width: 97%;
+    }
+    .conocenos .descripcionMatri{
+        width: 100%;
+    }
+
+    .conocenos img{
+        width: 340px;
+        margin: auto;
+        float: none;
+    }
+}
+
+@media (max-width:754px){
+    .intro p {
+        font-size: 15px;
+        line-height: 32px;
+    }
+
+    .jeyu p {
+        font-size: 15px;
+        line-height: 34px;
+    }
+}
+
+@media (max-width:698px){
+    .intro img{
+        width: 390px;
+        float: none;
+        margin: auto;
+        padding-left: 11%;
+    }
+    
+    .intro .descripcion {
+        float: none;
+        width: 100%;
+    }
+    .jeyu img{
+        float: none;
+        margin: auto;
+    }
+    .jeyu .descripcion {
+        float: none;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    #menu li{
+        font-size: 18px;
+    }
+
+    .jeyu img{
+        width: 340px;
+    }
+
+    #menu li {
+        margin: 0px 15px 0px 0px;
+    }
+
+    .footer h4 {
+        font-size: 20px;
+    }
+
+    .footer h2{
+        font-size:22px
+    }
+
+    .footer .logos img {
+        width: 50px;
+    }
+
+}
+
+@media (max-width:568px){
+    #menu li {
+        font-size: 17px;
+        margin: 0px 5px 0px 5px;
+    }
+    #logo img {
+        width: 153px;
+        padding-top: 32px;
+    }
+
+    #menu {
+        padding-right: 10px;
+    }
+}
+
+@media (max-width:476px){
+    #menu li {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:512px){
+    .intro img {
+        width: 370px;
+    }
+}
+
+@media (max-width:458px){
+    .intro img {
+        width: 319px;
+    }
+    .conocenos img{
+        width: 260px;
+    }
+    .jeyu img {
+        width:260px;
+    }
+
+    #logo img {
+        padding-top: 10px;
+        margin-left: 0px;
+        float: none;
+        margin: auto;
+    }
+    #menu {
+        text-align: center;
+        float: none;
+    }
+    #menu li{
+        width: 32%;
+        line-height: 49px;
+        margin:0px;
+    }
+
+    .intro h1 {
+        font-size: 23px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .conocenos h2 {
+        font-size: 23px;
+    }
+
+    .jeyu h2 {
+        font-size: 23px;
+    }
+    
+}
+
+@media (max-width:400px){
+    .intro img {
+        width: 290px;
+    }
+    .jeyu img {
+        width: 250px;
+    }
+}
+
+@media (max-width:374px){
+    .intro img {
+        width: 260px;
+    }
+}
+
+@media (max-width:324px){
+    .intro img {
+        width: 220px;
+    }
+    .conocenos img {
+        width: 230px;
+    }
+
+    .jeyu img {
+        width: 230px;
+    }
+}
+
+@media (max-width:275px){
+    .intro img {
+        width: 200px;
+    }
+    .jeyu img {
+        width: 200px;
+    }
+
+    .conocenos img {
+        width: 220px;
+    }
+}
+/* FIN RESPONSIVE */
